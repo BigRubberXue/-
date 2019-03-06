@@ -1,0 +1,116 @@
+﻿body {
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+.top{
+    height:313px;
+    background-image:url(../image/top2.jpg);
+}
+.zi{
+    width:200px;
+    height:90px;
+    background:no-repeat;
+    position:absolute;
+    background-image:url(../image/zi.png) ;
+    margin-left:550px;
+    margin-top:58px;
+}
+.zj1{
+    width:720px;
+    height:auto;
+    margin:80px 0 100px 300px;
+    border:1px solid #cac5c5;
+    border-radius:10px;
+}
+#zj_tips1 {
+    padding: 15px 290px 0 30px;
+    height: 80px;
+    width: 400px;
+    border-bottom: 1px solid #cac5c5;
+}
+#zj_tips2 {
+    padding: 15px 290px 0 30px;
+    height: 80px;
+    width: 400px;
+    border-bottom: 1px solid #cac5c5;
+}
+#zj_tips1 a{
+    color:slategray;
+    font-size:25px;
+    font-weight:bold;
+    font-family:'Microsoft JhengHei UI';
+    text-decoration:none;
+}
+#zj_tips1 p{
+    font-weight:bold;
+    color:hotpink;
+    font-size:11px;
+    font-family:'Microsoft JhengHei UI';
+    padding-top:12px;
+}
+#zj_tips2 a {
+    color: slategray;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Microsoft JhengHei UI';
+    text-decoration: none;
+}
+
+#zj_tips2 p {
+    font-weight: bold;
+    color: hotpink;
+    font-size: 11px;
+    font-family: 'Microsoft JhengHei UI';
+    padding-top: 12px;
+}
+.rule {
+    float: right !important;
+    width: 220px;
+    top:20px;
+    right:100px;
+    margin-top: 393px;
+    margin-right: 100px;
+    /*position:relative;*/
+}
+.timu{
+    margin-left:40px;
+    margin-bottom:0px;
+}
+.gz li {
+    list-style-image:url(../image/hong.png);
+    padding: 0;
+}
+
+
+.gz a{
+    font-size:20px;
+    font-weight:bold;
+    font-family:'Microsoft JhengHei UI';
+    color:dimgray;
+    text-decoration:none;
+}
+.gz p{
+    font-size:13px;
+    font-family:'Microsoft JhengHei UI';
+    color:#958f8f;
+    padding:20px 0px;
+    font-weight:bold;
+}
+#btn1{
+    margin-top:50px;
+    text-align:center;
+}
+#btn2 {
+    margin-top: 50px;
+    text-align: center;
+}
+#ti1 {
+    font-family: 'Microsoft JhengHei UI';
+}
+.tm {
+    color: deeppink;
+    font-size: 40px;
+    font-family: MingLiU_HKSCS-ExtB;
+}

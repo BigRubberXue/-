@@ -1,0 +1,120 @@
+﻿body {
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/** input[type=checkbox]{
+             visibility:hidden;
+         }*/
+
+.bj {
+    width: 100%;
+    height: 790px;
+    background-image: url(../image/bj.png);
+}
+.start {
+    border: solid 1px #666;
+    background-color: rgba(171,198,223,0.9) !important;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.start:hover {
+    background-color:#eee !important;
+    transform:translateY(-2px);
+    transition:transform;
+    transition-duration:.3s;
+    transition-timing-function:ease-in-out;
+
+}
+
+.zj {
+    width: 800px;
+    height: auto;
+    border-style: solid;
+    padding: 0px 20px 0px 60px;
+    font-size: 20px;
+    font-weight: 300;
+    position: absolute;
+    top: 130px;
+    left: 340px;
+    border-radius: 50px;
+}
+
+.auto-style1 {
+    width: 100%;
+}
+.zuo {
+    width: 330px;
+    height: 747px;
+    background-image: url(../image/zuo.png);
+    float: left;
+    margin-top:20px;
+    background-repeat:no-repeat;
+}
+.you {
+    width: 412px;
+    height: 747px;
+    background-image: url(../image/you.png);
+    float: right;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+}
+
+#CheckBox1, #CheckBox2, #CheckBox3, #CheckBox4, #CheckBox5, #CheckBox6, #CheckBox7, #CheckBox8, #CheckBox9,
+#CheckBox10, #CheckBox11, #CheckBox12, #CheckBox13, #CheckBox14, #CheckBox15, #CheckBox16 {
+    visibility: hidden;
+}
+
+.checkbox {
+    cursor: pointer;
+    z-index: 200;
+    border-radius: 30%;
+    border: 1px solid #808080;
+    text-align: center;
+}
+    /*[checked = true] + .checkbox*/
+    /*#Checkbox1{
+            position:relative;
+            z-index:-200;
+        }*/
+    .checkbox:hover {
+        transition: transform background-color;
+        transition-duration: .3s;
+        transform: translateY(-3px);
+        background-color: aliceblue;
+    }
+
+input:checked + div {
+    color: darkblue;
+    background-color: navajowhite;
+}
+
+.yx {
+    margin-bottom: 0;
+}
+
+.auto-style3 {
+    width: 55%;
+    height: 100%;
+}
+
+.auto-style4 {
+    width: 124px;
+}
+
+.auto-style5 {
+    width: 134px;
+}
+
+.auto-style6 {
+    cursor: pointer;
+    z-index: 200;
+    width: 60%;
+    height: 100%;
+}
+
+.auto-style7 {
+    width: 178px;
+}
+
